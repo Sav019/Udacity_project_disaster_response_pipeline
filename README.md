@@ -8,6 +8,7 @@
 
 ## Project Overview
 This project is part of the Udacity Data Science Nanodegree program. The goal is to build a machine learning pipeline to categorize emergency messages based on the needs communicated in the text. The project includes a web app where an emergency worker can input a new message and get classification results in several categories. The dataset was provided by Figure Eight.
+The web-app can be accessed via follwoing link: https://dashboard.render.com/web/srv-cs3pknbtq21c738iepgg
 
 The main components of this project are:
 
@@ -18,9 +19,6 @@ The main components of this project are:
 ## File Descriptions
 The project includes the following files and folders:
 
-- "app/": This folder contains the files for the Flask web app.
-  - "run.py": Starts the Flask web app and displays the visualizations and classification results.
-  - "templates/": This folder contains the HTML templates for the web app, including "master.html" and "go.html".
 - "data/": This folder contains the raw data files and the ETL pipeline.
   - "disaster_categories.csv": The raw data file containing the message categories.
   - "disaster_messages.csv": The raw data file containing the disaster messages.
@@ -29,17 +27,13 @@ The project includes the following files and folders:
 - "models/": This folder contains the machine learning pipeline.
   - "train_classifier.py": Runs the ML pipeline that trains the classifier and saves the model as a pickle file.
   - "classifier.pkl": The trained machine learning model.
+- "run.py": Starts the Flask web app and displays the visualizations and classification results.
+- "templates/": This folder contains the HTML templates for the web app, including "master.html" and "go.html".
 - "requirements.txt": The Python package requirements for the project.
 - "runtime.txt": The runtime environment for the project.
-- "Procfile": The Heroku configuration file.
 - "README.md": This file, which provides an overview of the project.
 
 ## Instructions
-1. Run the following commands in the project's root directory to set up the database and model.
-
-    - To run ETL pipeline that cleans data and stores in database:
-        "python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db"
-    - To run ML ## Instructions (continued)
 
 1. Run the following commands in the project's root directory to set up the database and model.
 
