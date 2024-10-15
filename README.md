@@ -29,6 +29,7 @@ The project includes the following files and folders:
   - "classifier.pkl": The trained machine learning model.
 - "run.py": Starts the Flask web app and displays the visualizations and classification results.
 - "templates/": This folder contains the HTML templates for the web app, including "master.html" and "go.html".
+- "tokenize_mod.py": Custom built tokenizer function.
 - "requirements.txt": The Python package requirements for the project.
 - "runtime.txt": The runtime environment for the project.
 - "README.md": This file, which provides an overview of the project.
